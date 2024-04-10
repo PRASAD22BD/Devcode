@@ -16,7 +16,7 @@ Deploy ArgoCD to manage the deployment of the previously mentioned application u
 # Step - 4  
 TEKTON
 Set up Tekton pipelines and the Tekton dashboard. The pipeline should download the source code from the public fork of the sample project (Which you’ve containerized in the first step), build the image, and push it to Docker Hub. The candidate is expected to manually run the pipeline from the Tekton dashboard.
--Useful Documentation 
-https://tekton.dev/docs/
-https://tekton.dev/docs/dashboard/#:~:text=Tekton%20Dashboard%20is%20a%20general,creation%2C%20execution%2C%20and%20completion.
-https://hub.tekton.dev/tekton/task/kaniko
+- Useful Documentation 
+- https://tekton.dev/docs/
+- https://tekton.dev/docs/dashboard/#:~:text=Tekton%20Dashboard%20is%20a%20general,creation%2C%20execution%2C%20and%20completion.
+- https://hub.tekton.dev/tekton/task/kaniko
